@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import Posts from './components/Posts';
 import PostForm from './components/Postform';
+/******************************** 
+    First Need to install redux
+npm i redux react-redux redux-thunk 
+*********************************/
 
 function App() {
   return (
