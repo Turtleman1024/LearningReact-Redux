@@ -14,10 +14,7 @@ Need to do another 'npm i' after above command
 The glue for react and redux
 *********************************/
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-
-//Create store documentation: https://github.com/reduxjs/redux/blob/master/docs/api/createStore.md
-const store = createStore(() => [], {}, applyMiddleware());
+import store from './store'
 
 function App() {
   return (
