@@ -7,7 +7,11 @@ const initialState = {};
 const middleware = [thunk];
 
 //Create store documentation: https://github.com/reduxjs/redux/blob/master/docs/api/createStore.md
-const store = createStore(rootReducer, initialState, applyMiddleware(...middleware));
+const store = createStore(
+    rootReducer, 
+    initialState, 
+    applyMiddleware(...middleware)
+);
 
 
 export default store;
