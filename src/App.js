@@ -10,7 +10,7 @@ Need to do another 'npm i' after above command
 **********************************************/
 
 /******************************** 
-      Being in a provider 
+      Bring in a provider 
 The glue for react and redux
 *********************************/
 import { Provider } from 'react-redux';
